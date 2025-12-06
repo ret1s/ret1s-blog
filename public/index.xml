@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>靑靑靑</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 靑靑靑</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Dec 2025 15:59:25 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 06 Dec 2025 15:59:25 +0700</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Currently working as a quantitative researcher, blending code, data, and curiosity. I’ve worked across backend systems, game development, and AI research—always driven by the urge to build and explore new ideas. I enjoy thoughtful technical discussions, whether they lead to real solutions or just spark new questions. This blog gathers the artifacts from that journey: quant models, deep learning experiments, and the occasional tangent that helps make sense of both.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Sat, 06 Dec 2025 15:59:19 +0700</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;First post from the desk of a quant researcher. Expect short riffs on market structure, model failures, and deep learning experiments—light on ceremony, heavy on curiosity.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

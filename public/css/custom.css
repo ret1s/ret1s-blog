@@ -1,0 +1,21 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  counter-reset: none;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  counter-increment: none;
+}
+
+h2::before,
+h3::before,
+h4::before,
+h5::before {
+  content: none !important;
+}

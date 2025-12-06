@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ .Content }}
+  <p style="margin-top: 1.5rem; font-style: italic;">“A champion is someone who gets up when he can't.”</p>
+  <div class="terminal-nav">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </div>
+  {{ $posts := sort (where site.RegularPages "Section" "posts") "Date" "desc" }}
+  <h2>Fresh Signals</h2>
+  {{ if gt (len $posts) 0 }}
+    <div class="time-list">
+      <ul>
+        {{ range $posts }}
+          <li>
+            <span>{{- partial "date" .Date -}}</span>
+            <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ else }}
+    <p>No posts yet. Add one under <code>content/posts</code>.</p>
+  {{ end }}
+{{ end }}

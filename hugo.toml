@@ -1,0 +1,23 @@
+baseURL = 'https://ret1s.github.io/'
+languageCode = 'en-us'
+title = '靑靑靑'
+theme = 'shibui'
+
+[params]
+  author = "ret1s"
+  email = "ngmhah@gmail.com"
+  description = "Minimalist notes about quant and deep learning."
+  
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
