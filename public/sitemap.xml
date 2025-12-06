@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/ret1s-blog/about/</loc>
     <lastmod>2025-12-06T15:59:25+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/ret1s-blog/</loc>
     <lastmod>2025-12-06T15:59:25+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>http://localhost:1313/ret1s-blog/posts/hello-world/</loc>
     <lastmod>2025-12-06T15:59:19+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/ret1s-blog/posts/</loc>
     <lastmod>2025-12-06T15:59:19+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/ret1s-blog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/ret1s-blog/tags/</loc>
   </url>
 </urlset>
