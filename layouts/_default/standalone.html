@@ -1,0 +1,7 @@
+{{/*
+  Standalone layout: emit the page's raw HTML content verbatim, with no theme
+  chrome (no baseof head/header/footer). Used by self-contained, fully-styled
+  HTML posts via `layout = 'standalone'` in front matter. Because this template
+  defines no blocks, Hugo renders it directly and does not apply baseof.html.
+*/}}
+{{ .Content }}

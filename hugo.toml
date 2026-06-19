@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = '靑靑靑'
 theme = 'shibui'
 
+# Allow raw-HTML content files (e.g. self-contained, fully-styled posts rendered
+# via the `standalone` layout). Hugo blocks text/html content by default.
+[security]
+  allowContent = ['.*']
+
 [params]
   author = "ret1s"
   email = "ngmhah@gmail.com"
